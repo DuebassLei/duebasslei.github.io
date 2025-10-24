@@ -98,7 +98,7 @@ const blogTheme = getThemeConfig({
         link: 'https://theme.sugarat.top/group.html',
       }
     ],
-    duration: 0
+    duration: 1
   },
 })
 

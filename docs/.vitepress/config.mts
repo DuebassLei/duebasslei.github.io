@@ -36,7 +36,6 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '相关文章',
     lastUpdatedText: '上次更新于',
-
     // 设置logo
     logo: '/logo.png',
     // editLink: {
@@ -46,7 +45,8 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于作者', link: 'https://sugarat.top/aboutme.html' }
+      { text: '常用工具', link: '/tool' },
+      { text: '关于作者', link: '/about' }
     ],
     socialLinks: [
       {
