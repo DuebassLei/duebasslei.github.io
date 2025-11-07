@@ -1,7 +1,7 @@
-import {defineConfig} from 'vitepress'
+import { defineConfig } from 'vitepress'
 
 // 导入主题的配置
-import {blogTheme} from './blog-theme'
+import { blogTheme } from './blog-theme'
 
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
@@ -23,7 +23,7 @@ export default defineConfig({
     head: [
         // 配置网站的图标（显示在浏览器的 tab 上）
         // ['link', { rel: 'icon', href: `${base}favicon.ico` }], // 修改了 base 这里也需要同步修改
-        ['link', {rel: 'icon', href: '/favicon.ico'}]
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
     themeConfig: {
         // 展示 2,3 级标题在目录中
@@ -32,9 +32,9 @@ export default defineConfig({
             label: '目录'
         },
         // 默认文案修改
-        returnToTopLabel: '回到顶部',
+        returnToTopLabel: '返回顶部',
         sidebarMenuLabel: '相关文章',
-        lastUpdatedText: '上次更新于',
+        lastUpdatedText: 'last updated',
         // 设置logo
         logo: '/logo.png',
         // editLink: {
@@ -43,9 +43,11 @@ export default defineConfig({
         //   text: '去 GitHub 上编辑内容'
         // },
         nav: [
-            {text: '首页', link: '/'},
-            {text: '常用工具', link: '/tool'},
-            {text: '关于作者', link: '/about'}
+            { text: '首页', link: '/' },
+            { text: '后端开发', link: '/docs/sop/backend' },
+            { text: '前端开发', link: '/docs/sop/frontend' },
+            { text: '我的作品', link: '/works' },
+            { text: '关于我', link: '/about' }
         ],
         socialLinks: [
             {
@@ -55,7 +57,12 @@ export default defineConfig({
             {
                 icon: 'gitee',
                 link: 'https://gitee.com/DuebassLei'
+            },
+             {
+                icon: 'csdn',
+                link: 'https://blog.csdn.net/m0_37903882'
             }
-        ]
+        ],
+
     }
 })

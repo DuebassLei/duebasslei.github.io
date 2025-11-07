@@ -67,39 +67,81 @@ const blogTheme = getThemeConfig({
   ],
 
   // 公告
-  popover: {
-    title: '公告',
-    body: [
-      { type: 'text', content: '👇公众号👇---👇 微信 👇' },
-      {
-        type: 'image',
-        src: 'https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210~fmt.webp'
-      },
-      {
-        type: 'text',
-        content: '欢迎大家加群&私信交流'
-      },
-      {
-        type: 'text',
-        content: '文章首/文尾有群二维码',
-        style: 'padding-top:0'
-      },
-      {
-        type: 'button',
-        content: '作者博客',
-        link: 'https://sugarat.top'
-      },
-      {
-        type: 'button',
-        content: '加群交流',
-        props: {
-          type: 'success'
+  // popover: {
+  //   title: '公告',
+  //   body: [
+  //     { type: 'text', content: '👇公众号👇---👇 微信 👇' },
+  //     {
+  //       type: 'image',
+  //       src: 'https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210~fmt.webp'
+  //     },
+  //     {
+  //       type: 'text',
+  //       content: '欢迎大家加群&私信交流'
+  //     },
+  //     {
+  //       type: 'text',
+  //       content: '文章首/文尾有群二维码',
+  //       style: 'padding-top:0'
+  //     },
+  //     {
+  //       type: 'button',
+  //       content: '作者博客',
+  //       link: ''
+  //     },
+  //     {
+  //       type: 'button',
+  //       content: '加群交流',
+  //       props: {
+  //         type: 'success'
+  //       },
+  //       link: '',
+  //     }
+  //   ],
+  //   duration: 1
+  // },
+  // 3D模型
+  oml2d: {
+            mobileDisplay: true,
+            models: [
+                {
+                    path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Senko_Normals/senko.model3.json'
+                }
+            ]
         },
-        link: 'https://theme.sugarat.top/group.html',
+  works: {
+    title: '开源项目',
+    description: '一些学习过程中写的开源项目，欢迎大家star',
+    topTitle: '示例基础小项目',
+    list: [
+      {
+        title: 'Vant APP',
+        description: 'H5移动APP，使用Vue全家桶VueCli3.x+Vant+Vuex+Vue-Router',
+        time: {
+          start: '2020/01/01'
+        },
+        github: {
+          owner: 'DuebassLei',
+          repo: 'vant-app',
+          branch: 'master',
+          path: 'https://github.com/DuebassLei/vant-app'
+        },
+        status: {
+          text: 'app'
+        },
+        url: 'https://duebasslei.github.io/vant-app/',
+        cover:
+          '',
+        tags: ['Vant', 'Vue'],
+        links: [
+          {
+            title: 'Vant APP',
+            url: 'https://github.com/DuebassLei/vant-app'
+          }
+        ]
       }
-    ],
-    duration: 1
-  },
+    ]
+  }      
 })
 
 export { blogTheme }
