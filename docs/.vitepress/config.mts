@@ -44,9 +44,9 @@ export default defineConfig({
         // },
         nav: [
             { text: '首页', link: '/' },
-            { text: '后端开发', link: '/docs/sop/backend' },
-            { text: '前端开发', link: '/docs/sop/frontend' },
-            { text: '运维开发', link: '/devops/linux/linux-base' },
+            { text: '后端开发', link: '/sop/backend' },
+            { text: '前端开发', link: '/sop/frontend' },
+            { text: '运维开发', link: '/sop/devops' },
             { text: '我的作品', link: '/works' },
             { text: '关于我', link: '/about' }
         ],
