@@ -1,11 +1,13 @@
 ---
 title: Git基础常用笔记📚
 description: Git基础常用笔记
+tag:
+  - Git
 sidebar: true
 outline: [2,3,4]
 lastUpdated: true
 ---
-
+# Git基础常用笔记
 ## Git 基础常用笔记
 ### Git 全局设置
 

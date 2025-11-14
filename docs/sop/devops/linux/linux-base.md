@@ -1,10 +1,13 @@
 ---
 title: Linux实用操作笔记📚
 description: Linunx基础常用笔记
+tag:
+  - Linux
 sidebar: true
 outline: [2,3,4]
 lastUpdated: true
 ---
+# Linux实用操作笔记
 
 ## 端口相关
 
@@ -62,3 +65,7 @@ find . -type f -exec echo {} + | wc -l
 
 
 ```
+
+
+
+

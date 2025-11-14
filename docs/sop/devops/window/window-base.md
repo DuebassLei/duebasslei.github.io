@@ -1,10 +1,13 @@
 ---
 title: Windows实用笔记📚
 description: Windows基础常用记录
+tag:
+  - Windows
 sidebar: true
 outline: [2,3,4]
 lastUpdated: true
 ---
+# Windows实用笔记
 
 ## 端口相关
 
