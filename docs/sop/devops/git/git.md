@@ -1,25 +1,32 @@
 ---
-title: Git基础常用笔记
-description: Git基础常用笔记
+title: GIT基础
+description: GIT基础记录
 tag:
-  - Git
+  - GIT
 sidebar: true
 outline: [2,3,4]
 lastUpdated: true
 ---
-# Git基础常用笔记
-## Git 基础常用笔记
+
+# GIT基础信息
+
+## Git 基础常用操作
+
 ### Git 全局设置
 
 Git 全局设置:
 
+```bash
 git config --global user.name "海边的小溪鱼"
 git config --global user.email "1130122701@qq.com"
+```
 
 ### 创建 git 仓库
 
 创建 git 仓库:
+
 ```bash
+
 mkdir cs
 cd cs
 git init
@@ -31,8 +38,8 @@ git remote add origin https://gitee.com/DuebassLei/cs.git
 git push -u origin "master"
 ```
 
-
 ### 已有仓库?关联远程仓库
+
 ```bash
 cd existing_git_repo
 git remote add origin https://gitee.com/DuebassLei/cs.git
@@ -40,8 +47,8 @@ git remote add origin https://gitee.com/DuebassLei/cs.git
 git push -u origin "master"
 ```
 
-
 #### 推送本地分支到远程仓库-强制覆盖
+
 ```bash
 git push -f -u origin "master"
 ```
