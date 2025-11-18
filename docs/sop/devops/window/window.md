@@ -1,5 +1,5 @@
 ---
-title: Windows实用笔记📚
+title: Windows实用笔记
 description: Windows基础常用记录
 tag:
   - Windows
@@ -16,3 +16,9 @@ lastUpdated: true
 netstat -ano | findstr :9091
 taskkill /PID 1234 /F
 ```
+
+
+## 磁盘分析
+### WizTree
+
+[WizTree](https://www.diskanalyzer.com/)

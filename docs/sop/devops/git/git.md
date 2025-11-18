@@ -1,5 +1,5 @@
 ---
-title: Git基础常用笔记📚
+title: Git基础常用笔记
 description: Git基础常用笔记
 tag:
   - Git
@@ -55,6 +55,3 @@ git push -u origin-yn --all
 # 强制推送所有本地分支到 origin-yn 远程仓库
 git push -f -u origin-yn --all
 ```
-
-
-

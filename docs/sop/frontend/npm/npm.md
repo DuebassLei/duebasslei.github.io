@@ -1,5 +1,5 @@
 ---
-title: NPM常用操作笔记📚
+title: NPM常用操作笔记
 description: NPM常用操作笔记
 tag:
   - NPM

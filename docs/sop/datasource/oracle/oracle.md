@@ -1,5 +1,5 @@
 ---
-title: Oracle常用笔记📚
+title: Oracle常用笔记
 description: Oracle常用笔记整理
 tag:
   - Oracle

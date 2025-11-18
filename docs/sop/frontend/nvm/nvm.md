@@ -1,5 +1,5 @@
 ---
-title: NVM常用操作笔记📚
+title: NVM常用操作笔记
 description: NVM常用操作笔记
 tag:
   - NVM

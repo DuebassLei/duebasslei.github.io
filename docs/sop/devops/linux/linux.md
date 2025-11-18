@@ -1,5 +1,5 @@
 ---
-title: Linux实用操作笔记📚
+title: Linux实用操作笔记
 description: Linunx基础常用笔记
 tag:
   - Linux

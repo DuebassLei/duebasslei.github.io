@@ -1,5 +1,5 @@
 ---
-title: FTP基础常用笔记📚
+title: FTP基础常用笔记
 description: FTP基础常用笔记
 tag:
   - FTP
